@@ -1,0 +1,8 @@
+body{margin:0;font-family:Arial;background:#dbeafe}
+.header{background:white;padding:15px 30px;font-weight:bold;font-size:20px}
+.main{display:flex;gap:20px;padding:20px}
+.card{background:white;padding:20px;border-radius:15px;width:50%;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.row{display:flex;gap:15px}
+input{width:100%;padding:10px;margin:5px 0 15px;border-radius:8px;border:1px solid #ccc}
+button{width:100%;padding:12px;background:#2563eb;color:white;border:none;border-radius:10px;font-size:16px;cursor:pointer}
+#total{color:#1d4ed8;text-align:center}

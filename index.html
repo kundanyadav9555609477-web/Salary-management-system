@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Salary Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">Employee Salary Management</div>
+  <div class="main">
+    <div class="card">
+      <h2>Employee Details</h2>
+      <input id="name" placeholder="E.g. Jex Johnson">
+      <div class="row">
+        <div><label>Base Salary</label><input id="base" type="number" value="50000"></div>
+        <div><label>HRA</label><input id="hra" type="number" value="10000"></div>
+      </div>
+      <div class="row">
+        <div><label>DA</label><input id="da" type="number" value="5000"></div>
+        <div><label>Bonus</label><input id="bonus" type="number" value="2000"></div>
+      </div>
+      <button onclick="calc()">Calculate Net Salary</button>
+    </div>
+    <div class="card">
+      <h2>Salary Breakdown</h2>
+      <h1 id="total">₹ 67,000</h1>
+      <p>Base: <span id="b1">50000</span></p>
+      <p>HRA: <span id="h1">10000</span></p>
+      <p>DA: <span id="d1">5000</span></p>
+      <p>Bonus: <span id="bo1">2000</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
